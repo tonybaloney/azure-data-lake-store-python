@@ -41,3 +41,5 @@ jobs:
         azure_tenant_id: fake-tenant
         azure_subscription_id: fake-subscription
         azure_resource_group_name: fake-resource-group
+        azure_service_principal: fake-client-id
+        azure_service_principal_secret: fake-client-secret
