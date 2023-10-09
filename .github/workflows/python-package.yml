@@ -36,3 +36,8 @@ jobs:
     - name: Test with pytest
       run: |
         python -m pytest --maxfail=100 -vvv --doctest-modules --pyargs azure.datalake.store tests
+      env:
+        azure_data_lake_store_name: test
+        azure_tenant_id: fake-tenant
+        azure_subscription_id: fake-subscription
+        azure_resource_group_name: fake-resource-group
